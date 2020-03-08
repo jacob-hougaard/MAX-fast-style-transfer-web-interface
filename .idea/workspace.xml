@@ -65,7 +65,7 @@
     </findStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/client" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -159,12 +159,12 @@
       <workItem from="1583591254869" duration="225000" />
       <workItem from="1583658750720" duration="5000" />
       <workItem from="1583668015318" duration="145000" />
-      <workItem from="1583668225448" duration="617000" />
+      <workItem from="1583668225448" duration="949000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52773000" />
+    <option name="totallyTimeSpent" value="53105000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="970" extended-state="6" />
