@@ -1,6 +1,5 @@
 import axios from 'axios';
-const url = "http://max-fast-neural-style-transfer.max.us-south.containers.appdomain.cloud/model/predict";
-//const url = "http://localhost:3001/users";
+const url = "https://max-fast-neural-style-transfer.max.us-south.containers.appdomain.cloud/model/predict";
 
 export default class MaxTransferService {
 
