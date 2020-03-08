@@ -66,7 +66,7 @@ export default class CamView extends React.Component {
 
     renderPreviewImages = () => {
         return (
-            <div>
+            <div className="imagePreviewContainer">
                 <img id={"candy"} className={"imagePreview"} src={process.env.PUBLIC_URL + '/candy.jpg'} onClick={this.postGetStyledImage}></img>
                 <img id={"mosaic"} className={"imagePreview"}  src={process.env.PUBLIC_URL + '/mosaic.jpg'} onClick={this.postGetStyledImage}></img>
                 <img id={"rain_princess"} className={"imagePreview"}  src={process.env.PUBLIC_URL + '/rain-princess-cropped.jpg'} onClick={this.postGetStyledImage}></img>

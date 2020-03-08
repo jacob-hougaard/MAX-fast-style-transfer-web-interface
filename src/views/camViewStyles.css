@@ -1,6 +1,6 @@
 
 #candy{
-    opacity: 0.3
+    opacity: 0.3;
 }
 #candy:hover{
     opacity: 1
@@ -28,7 +28,10 @@
 }
 
 .imagePreview{
-    max-width:70%;
-    margin-top:4px;
+    max-width:80%;
 }
 
+.imagePreviewContainer{
+    max-width:100%;
+    max-height: 100%;
+}
