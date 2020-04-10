@@ -48,7 +48,7 @@ In order to run the model locally, you will also need to setup your docker syste
 
 **Start the Model API**
 
-1. [Deploy the Model](#####1.-deploy-the-model)
+1. [Deploy the Model](#1-deploy-the-model)
 2. Experiment with the API(Optional)
 
 **Change the app to utilize your own instance of the model before deploying **
@@ -70,7 +70,7 @@ In order to run the model locally, you will also need to setup your docker syste
 
 > NOTE: The set of instructions in this section are a modified version of the ones found on the [Style Transfer project page](https://github.com/IBM/MAX-Fast-Neural-Style-Transfer)
 
-##### 1. Deploy the model
+##### 1.  Deploy the model
 
 To run the docker image, which automatically starts the model serving API run: 
 
