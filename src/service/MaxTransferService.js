@@ -1,5 +1,6 @@
 import axios from 'axios';
-const url = "https://max-fast-neural-style-transfer.max.us-south.containers.appdomain.cloud/model/predict";
+import { config } from '../config';
+const url = config.model_url;
 
 export default class MaxTransferService {
 
@@ -25,8 +26,6 @@ export default class MaxTransferService {
                 });
 
             } catch (e) {
-                console.log("Errorororo");
-                console.log(e);
                 reject(e);
             }
         } );
