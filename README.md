@@ -23,7 +23,7 @@ When the reader has completed this code pattern, they will understand how to:
 
 
 
-### Included Components
+## Included Components
 
 [IBM Model Asset Exchange](https://developer.ibm.com/exchanges/models/): A place for developers to find and use free and open source deep learning models.
 
@@ -33,7 +33,7 @@ When the reader has completed this code pattern, they will understand how to:
 - Node.js
 - Docker
 
-## Steps
+# Steps
 
 **Prerequisites**
 
@@ -44,24 +44,24 @@ Before starting to deploy, you need some software to be present on your machine.
 
 In order to run the model locally, you will also need to setup your docker system to run with 6gb of ram or more, since any less will cause the application to crash.
 
-### Run locally
+## Run locally
 
-**Start the Model API**
+####**Start the Model API**
 
 1. [Deploy the Model](#1-deploy-the-model)
 2. [Experiment with the API(Optional)](#2-experiment-with-the-api-optional)
 
-**Change the app to utilize your own instance of the model before deploying**
+####**Change the app to utilize your own instance of the model before deploying**
 
 1. [Change the URL in the config file of the application](#change-the-app-to-utilize-your-own-instance-of-the-model-before-deploying)
 
-**Start the Web App using Node.js**
+####**Start the Web App using Node.js**
 
 1. [Download a local copy of the repository](#1-download-a-local-copy-of-the-repository)
 2. [Install dependencies](#2-install-dependencies)
 3. [Start the web app server.](#3-start-the-web-app-server)
 
-**Start the Web App using docker**
+####**Start the Web App using docker**
 
 1. [Build the docker image](#1-build-the-docker-image)
 2. [Run the docker image](#2-run-the-docker-image)
@@ -100,7 +100,7 @@ We get the following image in return
 
 
 
-#### Change the app to utilize your own instance of the model before deploying.
+### Change the app to utilize your own instance of the model before deploying.
 
 The default version fo this web app utilizes the already deployed MAX-fast model. If you wish to use the one deployed in the earlier steps, please go to /src/config.js and update the following line:
 
@@ -160,7 +160,7 @@ npm start
 
 
 
-#### Start the web app using Docker.
+### Start the web app using Docker.
 
 ##### 1. Build the docker image
 
