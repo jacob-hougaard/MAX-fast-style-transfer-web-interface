@@ -170,7 +170,7 @@ In your terminal, run the following command:
 docker build -t style-transfer-web-app .
 ```
 
-#####2. Run the docker image**
+#####2. Run the docker image
 
 When the image is done building, use the following command to get the container running:
 
