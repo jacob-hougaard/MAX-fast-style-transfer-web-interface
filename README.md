@@ -49,28 +49,28 @@ In order to run the model locally, you will also need to setup your docker syste
 **Start the Model API**
 
 1. [Deploy the Model](#1-deploy-the-model)
-2. Experiment with the API(Optional)
+2. [Experiment with the API(Optional)](#2-experiment-with-the-api-optional)
 
 **Change the app to utilize your own instance of the model before deploying **
 
-1. Change the URL in the config file of the application
+1. [Change the URL in the config file of the application](#change-the-app-to-utilize-your-own-instance-of-the-model-before-deploying)
 
 **Start the Web App using Node.js**
 
-1. Download a local copy of the repository
-2. Install dependencies
-3. Start the web app server.
+1. [Download a local copy of the repository](#1-download-a-local-copy-of-the-repository)
+2. [Install dependencies](#2- install-dependencies)
+3. [Start the web app server.](#3- start-the-web-app-server)
 
 **Start the Web App using docker**
 
-1. Build the docker image
-2. Run the docker image
+1. [Build the docker image](#1-build-the-docker-image)
+2. [Run the docker image](#2-run-the-docker-image)
 
-#### Start the model API
+### Start the model API
 
 > NOTE: The set of instructions in this section are a modified version of the ones found on the [Style Transfer project page](https://github.com/IBM/MAX-Fast-Neural-Style-Transfer)
 
-##### 1.  Deploy the model
+####1.  Deploy the model
 
 To run the docker image, which automatically starts the model serving API run: 
 
@@ -80,7 +80,7 @@ docker run -it -p 5000:5000 codait/max-fast-neural-style-transfer
 
 Be sure to set your docker enviornment to run with at least 6gb of ram and 4 cpu's, since using the model with any less, will result in errors from the API.
 
-##### 2. Experiment with the API (Optional)
+#### 2. Experiment with the API (Optional)
 
 The API server automatically generates a swagger documentation page. To load it, go to http://0.0.0.0:5000/](http://0.0.0.0:5000/) in your browser. Here you can explore the API and  test the API by uploading your own image.
 
@@ -162,7 +162,7 @@ npm start
 
 #### Start the web app using Docker.
 
-##### 1. Build the docker image
+#####1. Build the docker image
 
 In your terminal, run the following command:
 
@@ -170,7 +170,7 @@ In your terminal, run the following command:
 docker build -t style-transfer-web-app .
 ```
 
-**2. Run the docker image**
+#####2. Run the docker image**
 
 When the image is done building, use the following command to get the container running:
 
