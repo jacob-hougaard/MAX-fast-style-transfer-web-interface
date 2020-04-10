@@ -180,7 +180,7 @@ docker run -p 3000:3000 style-transfer-web-app
 
 
 
-## Sample output
+# Sample output
 
 When opening you browser on http://localhost:3000 you should be presented with a page asking for permission on using your webcam. 
 
@@ -188,7 +188,7 @@ Upon clicking on a painting, the app will load for an amount of seconds, and aft
 
 ![Result](assets/Result.png)
 
-## Links
+# Links
 
 [Model Asset eXchange (MAX)](https://developer.ibm.com/exchanges/models/)
 
@@ -196,7 +196,7 @@ Upon clicking on a painting, the app will load for an amount of seconds, and aft
 
 [MAX-Fast-Neural-Style-Transfer on github](https://github.com/IBM/MAX-Fast-Neural-Style-Transfer)
 
-## Learn more 
+# Learn more 
 
 * **Want to learn more about the model? It was made according to the article** [Perceptual Losses for Real-Time Style Transfer and Super-Resolution](https://arxiv.org/abs/1603.08155)
 * **The styling of this project was done according to [The Carbon Design system principles](https://www.carbondesignsystem.com/)**
@@ -206,7 +206,7 @@ Upon clicking on a painting, the app will load for an amount of seconds, and aft
 
 
 
-## Acknowledgement
+# Acknowledgement
 
 Thanks to 
 
