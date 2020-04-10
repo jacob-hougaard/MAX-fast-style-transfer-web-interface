@@ -8,7 +8,7 @@ This code pattern makes use of one of the models from the Model Asset eXchange (
 
 When the reader has completed this code pattern, they will understand how to:
 
-- Build a docker image of the Object Detector MAX Model.
+- Build a docker image of the fast style transfer MAX Model.
 - Deploy a deep learning model with a REST endpoint.
 - Style image objects using the MAX Model's REST API.
 - Run a web application using the models REST API.
