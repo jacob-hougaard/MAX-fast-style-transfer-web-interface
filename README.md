@@ -46,6 +46,26 @@ In order to run the model locally, you will also need to setup your docker syste
 
 ### Run locally
 
+**Start the Model API**
+
+1. [Deploy the Model][#####1.-deploy-the-model]
+2. Experiment with the API(Optional)
+
+**Change the app to utilize your own instance of the model before deploying **
+
+1. Change the URL in the config file of the application
+
+**Start the Web App using Node.js**
+
+1. Download a local copy of the repository
+2. Install dependencies
+3. Start the web app server.
+
+**Start the Web App using docker**
+
+1. Build the docker image
+2. Run the docker image
+
 #### Start the model API
 
 > NOTE: The set of instructions in this section are a modified version of the ones found on the [Style Transfer project page](https://github.com/IBM/MAX-Fast-Neural-Style-Transfer)
@@ -122,7 +142,7 @@ Change directory into the repository base folder:
 $ cd MAX-fast-style-transfer-web-interface
 ```
 
-##### Install dependencies
+##### 2. Install dependencies
 
 If you have Node.js and npm installed, type in the following command in the terminal:
 
@@ -130,7 +150,7 @@ If you have Node.js and npm installed, type in the following command in the term
 $ npm install
 ```
 
-##### Start the web app server.
+##### 3. Start the web app server.
 
 You can then start your web app by running the following in your terminal
 
@@ -142,11 +162,15 @@ npm start
 
 #### Start the web app using Docker.
 
+##### 1. Build the docker image
+
 In your terminal, run the following command:
 
 ```bash
 docker build -t style-transfer-web-app .
 ```
+
+**2. Run the docker image**
 
 When the image is done building, use the following command to get the container running:
 
