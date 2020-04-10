@@ -51,7 +51,7 @@ In order to run the model locally, you will also need to setup your docker syste
 1. [Deploy the Model](#1-deploy-the-model)
 2. [Experiment with the API(Optional)](#2-experiment-with-the-api-optional)
 
-**Change the app to utilize your own instance of the model before deploying **
+** Change the app to utilize your own instance of the model before deploying **
 
 1. [Change the URL in the config file of the application](#change-the-app-to-utilize-your-own-instance-of-the-model-before-deploying)
 
@@ -162,7 +162,7 @@ npm start
 
 #### Start the web app using Docker.
 
-#####1. Build the docker image
+##### 1. Build the docker image
 
 In your terminal, run the following command:
 
@@ -170,7 +170,7 @@ In your terminal, run the following command:
 docker build -t style-transfer-web-app .
 ```
 
-#####2. Run the docker image
+##### 2. Run the docker image
 
 When the image is done building, use the following command to get the container running:
 
