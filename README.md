@@ -51,7 +51,7 @@ In order to run the model locally, you will also need to setup your docker syste
 1. [Deploy the Model](#1-deploy-the-model)
 2. [Experiment with the API(Optional)](#2-experiment-with-the-api-optional)
 
-** Change the app to utilize your own instance of the model before deploying **
+**Change the app to utilize your own instance of the model before deploying**
 
 1. [Change the URL in the config file of the application](#change-the-app-to-utilize-your-own-instance-of-the-model-before-deploying)
 
