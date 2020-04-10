@@ -210,9 +210,9 @@ Upon clicking on a painting, the app will load for an amount of seconds, and aft
 
 Thanks to 
 
-**[Urban Roth](https://www.linkedin.com/in/urbanroth/)** for coming up with the idéa for the project.
+**[Urban Roth](https://www.linkedin.com/in/urbanroth/)** for coming up with the idea for the project.
 
-[**Simon Hald Larsen**](https://github.com/muldeber) for helping out with the code. 
+[**Simon Hald Larsen**](https://github.com/muldeber) for help on the overall project.
 
 [**Nick Penetreath**](https://github.com/MLnick) & [**Brendan Dwyer**](https://github.com/bdwyer2) for helping with debugging and answers to questions on the API.
 
