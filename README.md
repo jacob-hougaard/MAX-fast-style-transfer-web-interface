@@ -198,7 +198,7 @@ Upon clicking on a painting, the app will load for an amount of seconds, and aft
 
 ## Learn more 
 
-* **Want to learn more about the model? It was inspired by the article **[Perceptual Losses for Real-Time Style Transfer and Super-Resolution](https://arxiv.org/abs/1603.08155)
+* **Want to learn more about the model? It was made according to the article** [Perceptual Losses for Real-Time Style Transfer and Super-Resolution](https://arxiv.org/abs/1603.08155)
 * **The styling of this project was done according to [The Carbon Design system principles](https://www.carbondesignsystem.com/)**
 
 * **Watson Studio**: Master the art of data science with IBM's [Watson Studio](https://dataplatform.cloud.ibm.com/)
@@ -215,3 +215,11 @@ Thanks to
 [**Simon Hald Larsen**](https://github.com/muldeber) for helping out with the code. 
 
 [**Nick Penetreath**](https://github.com/MLnick) & [**Brendan Dwyer**](https://github.com/bdwyer2) for helping with debugging and answers to questions on the API.
+
+
+
+# License
+
+This code pattern is licensed under the Apache Software License, Version 2. Separate third party code objects invoked within this code pattern are licensed by their respective providers pursuant to their own separate licenses. Contributions are subject to the [Developer Certificate of Origin, Version 1.1 (DCO)](https://developercertificate.org/) and the [Apache Software License, Version 2](https://www.apache.org/licenses/LICENSE-2.0.txt).
+
+[Apache Software License (ASL) FAQ](https://www.apache.org/foundation/license-faq.html#WhatDoesItMEAN)
