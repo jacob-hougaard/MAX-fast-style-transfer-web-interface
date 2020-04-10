@@ -46,22 +46,22 @@ In order to run the model locally, you will also need to setup your docker syste
 
 ## Run locally
 
-####**Start the Model API**
+#### **Start the Model API**
 
 1. [Deploy the Model](#1-deploy-the-model)
 2. [Experiment with the API(Optional)](#2-experiment-with-the-api-optional)
 
-####**Change the app to utilize your own instance of the model before deploying**
+#### **Change the app to utilize your own instance of the model before deploying**
 
 1. [Change the URL in the config file of the application](#change-the-app-to-utilize-your-own-instance-of-the-model-before-deploying)
 
-####**Start the Web App using Node.js**
+#### **Start the Web App using Node.js**
 
 1. [Download a local copy of the repository](#1-download-a-local-copy-of-the-repository)
 2. [Install dependencies](#2-install-dependencies)
 3. [Start the web app server.](#3-start-the-web-app-server)
 
-####**Start the Web App using docker**
+#### **Start the Web App using docker**
 
 1. [Build the docker image](#1-build-the-docker-image)
 2. [Run the docker image](#2-run-the-docker-image)
