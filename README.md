@@ -94,7 +94,7 @@ curl -X POST "http://0.0.0.0:5000/model/predict?model=mosaic" -H "accept: applic
 
 
 
-We get the following image in return
+We get the following image in return:
 
 ![](assets/styled-orange.jpeg)
 
