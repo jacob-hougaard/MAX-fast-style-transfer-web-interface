@@ -82,11 +82,11 @@ Be sure to set your docker enviornment to run with at least 6gb of ram and 4 cpu
 
 #### 2. Experiment with the API (Optional)
 
-The API server automatically generates a swagger documentation page. To load it, go to http://0.0.0.0:5000/](http://0.0.0.0:5000/) in your browser. Here you can explore the API and  test the API by uploading your own image.
+The API server automatically generates a swagger documentation page. To load it, go to [http://0.0.0.0:5000/](http://0.0.0.0:5000/) in your browser. Here you can explore  and  test the API by uploading your own image.
 
-use the model/predict endpoint to load a test image and press the execute button. A binary image will then be returned.
+use the model/predict endpoint to load a test image and press the execute button, a binary image will then be returned.
 
-It is also possible to test the model using the command line. A number of test images can be found in the assets folder in the root of this repository and using the mosaic style on the orange image we can use the following call:
+It is also possible to test the model using the command line. A number of test images can be found in the assets folder in the root of this repository and using the mosaic style on the orange image we can do the following call:
 
 ```
 curl -X POST "http://0.0.0.0:5000/model/predict?model=mosaic" -H "accept: application/json" -H "Content-Type: multipart/form-data" -F "image=@Oranges.jpg;type=image/jpeg"
@@ -94,7 +94,7 @@ curl -X POST "http://0.0.0.0:5000/model/predict?model=mosaic" -H "accept: applic
 
 
 
-We get the following image in return:
+We then get the following image in return:
 
 ![](assets/styled-orange.jpeg)
 
@@ -102,7 +102,7 @@ We get the following image in return:
 
 ### Change the app to utilize your own instance of the model before deploying.
 
-The default version fo this web app utilizes the already deployed MAX-fast model. If you wish to use the one deployed in the earlier steps, please go to /src/config.js and update the following line:
+The default version fo this web app utilizes the already deployed MAX model. If you wish to use the one deployed in the earlier steps, please go to /src/config.js and update the following line:
 
 ```javascript
 export const config = {
